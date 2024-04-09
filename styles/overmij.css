@@ -8,12 +8,10 @@
 
 body {
   background: rgb(2, 0, 36);
-  background: radial-gradient(
-    circle,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(10, 10, 10, 1) 0%,
-    rgba(43, 43, 43, 1) 100%
-  );
+  background: radial-gradient(circle,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(10, 10, 10, 1) 0%,
+      rgba(43, 43, 43, 1) 100%);
 }
 
 a {
@@ -27,12 +25,10 @@ a {
   display: flex;
   justify-content: space-around;
   background: rgb(2, 0, 36);
-  background: radial-gradient(
-    circle,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(10, 10, 10, 1) 0%,
-    rgba(43, 43, 43, 1) 100%
-  );
+  background: radial-gradient(circle,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(10, 10, 10, 1) 0%,
+      rgba(43, 43, 43, 1) 100%);
   border-bottom-style: solid;
   border-color: grey;
   height: 30px;
@@ -59,27 +55,32 @@ nav a {
   justify-content: center;
   margin-top: 50px;
 }
+
 .linkernaarboven a {
   font-size: 20px;
   font-weight: bold;
   transition: transform 0.3s ease;
 }
+
 .linkernaarboven a:hover {
   font-size: 20px;
   font-weight: bold;
   transform: scale(1.4);
 }
+
 .footer {
   padding-bottom: 50px;
   border-top-style: solid;
   border-color: grey;
   margin-top: 100px;
 }
+
 footer {
   margin-top: 50px;
   display: flex;
   justify-content: center;
 }
+
 .footeritem {
   margin: 5px;
   margin-right: 50px;
@@ -89,14 +90,17 @@ footer {
   border-style: solid;
   border-radius: 50px;
 }
+
 .footeritem:hover {
   background-color: white;
   color: rgb(46, 46, 46);
   border-style: solid;
 }
+
 .copyright {
   margin-left: 10px;
 }
+
 /*^^ FOOTER STYLING ^^*/
 /*MAIN*/
 
@@ -121,6 +125,7 @@ footer {
   margin: 0px 400px;
   justify-content: space-evenly;
 }
+
 .table-waarden {
   border: solid;
   border-width: 1px;
@@ -128,12 +133,15 @@ footer {
   border-color: grey;
   padding: 10px;
 }
+
 .table-waarden td {
   padding: 10px;
 }
+
 li {
   padding: 8px;
 }
+
 .top5 {
   margin-top: 80px;
   display: flex;
@@ -146,6 +154,7 @@ li {
   flex-direction: column;
   align-items: center;
 }
+
 img[src="/images/opdracht3b.png"] {
   border-radius: 5px;
 }
@@ -161,18 +170,22 @@ img[src="/images/opdracht3b.png"] {
   display: flex;
   justify-content: space-around;
 }
+
 .uitwerking2 div {
   width: 400px;
 }
+
 .opdracht3-slecht,
 .opdracht3-goed {
   margin-top: 200px;
 }
+
 .opdracht4 {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 img[src="/images/opdracht4.png"] {
   border-radius: 5px;
   border-style: solid;
@@ -196,6 +209,25 @@ img[src="/images/opdracht6.png"] {
   border-style: solid;
   border-color: grey;
 }
+
+img[src="./images/opdracht6.png"] {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+img[src="./images/opdracht4.png"] {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+}
+
+img[src="./images/opdracht1.png"] {
+  border-style: solid;
+  border-radius: 2px;
+
+}
+
 /*^^ MAIN ^^*/
 /* HEADER STYLING*/
 
@@ -216,12 +248,10 @@ header h1 {
   transform: translate(-50%, -50%);
   z-index: 1;
   background: rgb(2, 0, 36);
-  background: radial-gradient(
-    circle,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(10, 10, 10, 1) 0%,
-    rgba(43, 43, 43, 1) 100%
-  );
+  background: radial-gradient(circle,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(10, 10, 10, 1) 0%,
+      rgba(43, 43, 43, 1) 100%);
   padding: 20px;
   border-radius: 20px;
   font-size: 50px;
