@@ -135,10 +135,12 @@ footer {
 }
 
 .table-waarden td {
+  font-size: 20px;
   padding: 10px;
 }
 
 li {
+  font-size: 20px;
   padding: 8px;
 }
 
@@ -157,6 +159,10 @@ li {
 
 img[src="/images/opdracht3b.png"] {
   border-radius: 5px;
+}
+
+.opdracht2-beschrijving p {
+  font-size: 20px;
 }
 
 .uitwerking {

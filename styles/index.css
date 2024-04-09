@@ -150,7 +150,8 @@ header h1 {
 
 .intro {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  margin-bottom: 100px;
 }
 
 .introductie {
@@ -162,8 +163,13 @@ header h1 {
   text-decoration: underline;
 }
 
+.introductie {
+  margin-top: 60px;
+  width: 600px;
+}
+
 .introductie p {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .introductie h2 {
@@ -176,13 +182,11 @@ img {
   border-radius: 10px;
 }
 
-.werkenschool h2 {
+h2 {
   margin-bottom: 20px;
 }
 
 .werkenschool {
-  margin: 0px 100px;
-  margin-top: 100px;
   display: flex;
   justify-content: space-around;
 }
