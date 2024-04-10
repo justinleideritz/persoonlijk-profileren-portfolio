@@ -153,3 +153,9 @@ header h1 {
   flex-direction: column;
   align-items: center;
 }
+
+.midden p,
+li,
+.begin p {
+  font-size: 20px;
+}
