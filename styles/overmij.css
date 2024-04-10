@@ -171,19 +171,10 @@ img[src="/images/opdracht3b.png"] {
   justify-content: space-around;
 }
 
-.uitwerking2 {
+.uitwerking div {
+  margin: 0px 30px;
   margin-top: 50px;
-  display: flex;
-  justify-content: space-around;
-}
-
-.uitwerking2 div {
-  width: 400px;
-}
-
-.opdracht3-slecht,
-.opdracht3-goed {
-  margin-top: 200px;
+  width: 300px;
 }
 
 .opdracht4 {
